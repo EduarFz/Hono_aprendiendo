@@ -1,5 +1,6 @@
 import { Hono } from "hono";
 import db from "../db/database.js";
+import { basicAuth } from "../middlewares/basicAuth.js";
 
 const userRoutes = new Hono();
 
